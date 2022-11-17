@@ -3,8 +3,8 @@
 
 ## Contributors 
 *[Rajath Ramegowda](https://github.com/rajathbrgowda)* <br>
-*[Muskaan Parmar](https://github.com/Jeevitha-GowdaChandramouli)* <br>
-*[Nisha Jacob](https://github.com/Jeevitha-GowdaChandramouli)* <br>
+*[Muskaan Parmar](https://github.com/muskaan99)* <br>
+*[Nisha Jacob](https://github.com/NishaJacob96)* <br>
 
 
 Note : Summarised Report will be added soon
