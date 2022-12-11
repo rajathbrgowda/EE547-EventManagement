@@ -43,6 +43,7 @@ const admins = [
 	{ id: 3, name: 'VGSA' }
 ]
 
+
 const events = [
 	{ id: 1, name: 'Holi', adminId: 1 },
 	{ id: 2, name: 'Diwali', adminId: 1 },
