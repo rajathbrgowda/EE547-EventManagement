@@ -43,7 +43,10 @@ const admins = [
 	{ id: 3, name: 'VGSA' }
 ]
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> dfef9df9bc0dedf34b80fba2ea9fb520baeb1c79
 const events = [
 	{ id: 1, name: 'Holi', adminId: 1 },
 	{ id: 2, name: 'Diwali', adminId: 1 },
