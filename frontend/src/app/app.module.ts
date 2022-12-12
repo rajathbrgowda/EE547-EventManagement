@@ -10,6 +10,7 @@ import { CurrentBookingsComponent } from './components/current-bookings/current-
 import { PastBookingsComponent } from './components/past-bookings/past-bookings.component';
 import { SettingsComponent } from './components/settings/settings.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { EventBookingComponent } from './components/event-booking/event-booking.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     CurrentBookingsComponent,
     PastBookingsComponent,
     SettingsComponent,
-    DashboardComponent
+    DashboardComponent,
+    EventBookingComponent
   ],
   imports: [
     BrowserModule,

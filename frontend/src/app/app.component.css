@@ -1,50 +1,57 @@
-.navbar{
-    background-color: white;
-    box-shadow: 1px 0 5px 0 rgb(197, 197, 197);
+.navbar {
+  background-color: white;
+  box-shadow: 1px 0 5px 0 rgb(197, 197, 197);
 }
-#avtar{
-    height: 40px;
-    width: 40px;
-    border: 1px solid black; 
-    border-radius: 50%;
-}
-
-#profileName{
-    margin-right: 20px !important;
+#avtar {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
 }
 
-.sidebar{
-    height: 92vh;
-    box-shadow: 1px 0 5px -2px rgb(197, 197, 197);
+#profileName {
+  margin-right: 20px !important;
 }
 
-.welcomeTag{
-    background-image: linear-gradient(to right, #0f5cea, #2751e4, #3646de, #4339d7, #4e29cf);
-    color: white ;
-    padding-bottom: 100px !important;
+.sidebar {
+  height: 92vh;
+  box-shadow: 1px 0 5px -2px rgb(197, 197, 197);
 }
 
-.welcomeTag span{
-    padding-top: 5px;
+.welcomeTag {
+  background-image: linear-gradient(
+    to right,
+    #0f5cea,
+    #2751e4,
+    #3646de,
+    #4339d7,
+    #4e29cf
+  );
+  color: white;
+  padding-bottom: 100px !important;
 }
 
-.cement{
-    color: #99a5f5;
+.welcomeTag span {
+  padding-top: 5px;
 }
 
-.instructionCard{
-    padding: 10px;
-    margin: -4rem auto 0 auto;
-    width: 90%;
+.cement {
+  color: #99a5f5;
 }
 
-.optionCard:hover{
-    scale: 1.01;
-    cursor: pointer;
+.instructionCard {
+  padding: 10px;
+  margin: -4rem auto 0 auto;
+  width: 90%;
 }
-.sidebarCard{
-    border: none;
+
+.optionCard:hover {
+  scale: 1.01;
+  cursor: pointer;
 }
-.sidebarCard:hover{
-    scale: 1.01;
+.sidebarCard {
+  border: none;
+}
+.sidebarCard:hover {
+  scale: 1.01;
 }

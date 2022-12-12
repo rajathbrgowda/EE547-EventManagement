@@ -1,0 +1,114 @@
+<script type="text/javascript">
+  function clearForm() {
+    document.getElementById("event-booking-form").reset();
+  }
+</script>
+
+<div class="container p-5" *ngIf="!showBookings; else elseBlock">
+  <div class="row d-flex justify-content-evenly">
+    <div
+      class="col card p-0 text-white optionCard"
+      style="max-width: 30rem; background-color: #d8a305"
+    >
+      <div class="card-header"><strong>Book an Event</strong></div>
+      <div class="card-body">
+        <div class="container">
+          <form class="form form-register" id="event-booking-form">
+            <label for="location"
+              >Location<span class="required-input">*</span></label
+            >
+            <select
+              name="location"
+              id="location"
+              class="form-control location-select form-select mb-1"
+              style="height: 38px"
+              required
+            >
+              <option value="sgm">SGM</option>
+              <option value="sal">SAL</option>
+              <option value="rtcc">RTCC</option>
+            </select>
+            <br />
+            <label for="type">Type<span class="required-input">*</span></label>
+            <select
+              name="type"
+              id="type"
+              class="form-control type-select form-select mb-1"
+              style="height: 38px"
+              required
+            >
+              <option value="musical">Musical</option>
+              <option value="sports">Sports</option>
+              <option value="education">Educational</option>
+            </select>
+            <br />
+            <label for="host">Host<span class="required-input">*</span></label>
+            <select
+              name="host"
+              id="host"
+              class="form-control host-select form-select mb-1"
+              style="height: 38px"
+              required
+            >
+              <option value="rajath">Rajath</option>
+            </select>
+            <br />
+            <div
+              class="container d-flex justify-content-center gap-3 mt-3 mb-3"
+            >
+              <button
+                type="submit"
+                class="btn btn-primary"
+                (click)="searchBookings()"
+              >
+                Search
+              </button>
+              <button type="reset" class="btn btn-danger" onclick="clearForm()">
+                Clear
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #elseBlock>
+  <div class="container p-5">
+    <h5>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-arrow-left"
+        viewBox="0 0 16 16"
+        (click)="goBackToSearchForm()"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
+        />
+      </svg>
+      Search Results
+    </h5>
+    <div class="row">
+      <div class="card">
+        <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col">name</div>
+              <div class="col">date</div>
+              <div class="col">time</div>
+              <div class="col">host</div>
+              <div class="col">
+                <button type="submit" class="btn btn-primary">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>
